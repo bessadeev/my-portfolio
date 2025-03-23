@@ -43,6 +43,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .logo a{
@@ -90,7 +91,6 @@ header{
     background-size: 400px;
     background-position: right center;
     position: relative;
-    z-index: -1;
 }
 
 .introduction{
