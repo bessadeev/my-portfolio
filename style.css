@@ -88,10 +88,10 @@ header{
     width: 100%;
     min-height: 100vh;
     padding: 0px 30px;
+    position: relative;
     background: url(images/text.svg) no-repeat;
     background-size: 400px;
     background-position: right center;
-    position: relative;
 }
 
 .introduction{
@@ -156,12 +156,6 @@ button:hover{
     transition: all .5s;
 }
 
-section{
-    width: 100%;
-    height: 100vh;
-    padding: 0px 30px;
-}
-
 .arrow{
     position: absolute;
     bottom: 10%;
@@ -176,6 +170,29 @@ section{
     border-left: 1px solid white;
     border-bottom: 1px solid white;
     animation: todown 2s infinite reverse;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.about .background-svg{
+    width: 100%;
+    height: 150px;
+    background: url(images/about.svg) no-repeat center;
+    background-size: contain;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 1.8em;
 }
 
 
