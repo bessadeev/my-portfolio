@@ -89,8 +89,9 @@ header{
 }
 
 .introduction p{
+   width: 400px;
    font-weight: 300;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 .social-links{
@@ -99,7 +100,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .social-links a{
@@ -110,6 +111,27 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-links a:hover{
+    opacity: 0.8;
+    transition: all .3s;
+}
+
+button{
+    height: 50px;
+    width: 190px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition:  transform .3s ease-in-out;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 section{
