@@ -198,7 +198,7 @@ button:hover{
 
 .about{
     width: 100%;
-    height: 150vh;
+    height: 170vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,10 +236,48 @@ button:hover{
     line-height: 2em;
 }
 
+.projects{
+    width: 100%;
+    height: 150vh;
+}
+
+.projects .background-svg{
+width: 100%;
+height: 150px;
+background: url(images/projects.svg) no-repeat center;
+background-size: contain;
+}
+
+.projects h1{
+    text-align: center;
+    font-size: 1.8em;
+    animation: toright 1.5s;
+    margin-bottom: 30px;
+}
+
 .project{
     width: 100%;
-    height: 100vh;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
 }
+
+.projects button:hover:has .project {
+    background-image: url('images/project-android.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 
 
 
