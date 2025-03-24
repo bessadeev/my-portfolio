@@ -19,6 +19,24 @@
     }
 }
 
+@keyframes toright {
+    0%{
+        transform: translateX(-101%);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -180,7 +198,10 @@ button:hover{
 
 .about{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about .background-svg{
@@ -193,6 +214,31 @@ button:hover{
 .about h1{
     text-align: center;
     font-size: 1.8em;
+    animation: toright 1.5s;
+    margin-bottom: 30px;
+}
+
+.profile-picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.profile-picture img{
+    border-radius: 100px;
+}
+
+.about p{
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.project{
+    width: 100%;
+    height: 100vh;
 }
 
 
